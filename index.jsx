@@ -1,4 +1,5 @@
 import React from "react";
-import ReactDom from "react-dom";
+import ReactDOM from "react-dom";
+import {ListMovies} from "./application";
 
-ReactDom.render(<h1>Hello class</h1>, document.getElementById("app"));
+ReactDOM.render(<ListMovies/>, document.getElementById("app"));
