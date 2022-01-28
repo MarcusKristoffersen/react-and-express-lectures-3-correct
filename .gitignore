@@ -1,2 +1,5 @@
 /.idea/
 /react-and-express-lectures-3.iml
+/node_modules/
+/dist/
+/.parcel-cache/
