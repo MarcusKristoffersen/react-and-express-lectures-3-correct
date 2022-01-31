@@ -14,7 +14,17 @@ export function ListMovies({ movies }: { movies: string[] }) {
   );
 }
 
-export function NewMovieForm({ onAddMovie }) {
+interface Movie {
+  title: string;
+  plot: string;
+  year: string;
+}
+
+export function NewMovieForm({
+  onAddMovie,
+}: {
+  onAddMovie(movie: Movie): void;
+}) {
   const [title, setTitle] = useState("");
   const [year, setYear] = useState("");
   const [plot, setPlot] = useState("");
@@ -22,6 +32,7 @@ export function NewMovieForm({ onAddMovie }) {
   function handleSubmit() {
     onAddMovie({ title, year, plot });
   }
+
   return (
     <form onSubmit={handleSubmit}>
       <h1>Add new movie</h1>
