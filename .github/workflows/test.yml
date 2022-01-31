@@ -2,8 +2,7 @@ name: Run test
 on:
   push:
     branches:
-      - lectures/*
-      - reference/*
+      - '*'
 jobs:
   test:
     runs-on: ubuntu-latest
