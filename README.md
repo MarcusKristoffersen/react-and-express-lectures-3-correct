@@ -4,11 +4,11 @@
 * [x] Jest
 * [x] Snapshot tests
     * Testing rendering
-* [ ] Simulator testing
+* [x] Simulator testing
     * Testing submission
-* [ ] Github Actions
-* [ ] Coverage coveralls.io
-* [ ] Prettier
+* [x] Github Actions
+* [x] Coverage coveralls.io
+* [x] Prettier
 * [ ] Typescript
 * [ ] Eslint (?)
 * 
